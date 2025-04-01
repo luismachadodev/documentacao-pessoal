@@ -7,5 +7,6 @@ public class PessoaTest {
         Pessoa pessoa = new Pessoa();
         pessoa.setNome("Jiraya");
         pessoa.setIdade(70);
+        pessoa.imprime();
     }
 }
