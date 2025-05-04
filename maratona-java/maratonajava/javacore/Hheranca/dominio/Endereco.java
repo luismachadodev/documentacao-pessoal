@@ -9,11 +9,6 @@ public class Endereco {
 //        this.cep = cep;
 //    }
 
-    public void imprime() {
-        Pessoa p = new Pessoa();
-        p.nome = "luis";
-    }
-
     public String getRua() {
         return rua;
     }
