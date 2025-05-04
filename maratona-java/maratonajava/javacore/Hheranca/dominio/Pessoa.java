@@ -5,7 +5,18 @@ public class Pessoa {
     protected String cpf;
     protected Endereco endereco;
 
+    static {
+        System.out.println("Dentro do bloco de inicializacao estático de pessoa");
+    }
+    {
+        System.out.println("Dentro do bloco inicializacao de pessoa 1");
+    }
+    {
+        System.out.println("Dentro do bloco inicializacao de pessoa 2");
+    }
+
     public Pessoa(String nome) {
+        System.out.println("Dentro do construtor de pessoa");
         this.nome = nome;
     }
 
